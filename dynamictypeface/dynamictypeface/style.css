@@ -456,7 +456,7 @@ transition:0.5s
 .ebox{
   position: absolute;
   top:50px;
-  left:200px;
+  left:210px;
   transform: scale(0.3);
 }
 .ebox:hover .tri1{
@@ -514,7 +514,7 @@ transition:0.5s
   width: 150px;
   height: 300px;
   position: absolute;
-  top: -111px;
+  top: -112px;
   left: 1488px;
   width: 0;
   height: 0;
