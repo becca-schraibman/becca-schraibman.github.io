@@ -9,7 +9,6 @@ h1 {
 	font-family: Helvetica;
   color: rgb(255,255,255);
 }
-
 p{
 	position: absolute;
 	top: 300px;
@@ -457,7 +456,7 @@ transition:0.5s
 .ebox{
   position: absolute;
   top:50px;
-  left:200px;
+  left:210px;
   transform: scale(0.3);
 }
 .ebox:hover .tri1{
@@ -515,14 +514,14 @@ transition:0.5s
   width: 150px;
   height: 300px;
   position: absolute;
-  top: -100px;
+  top: -111px;
   left: 1488px;
   width: 0;
   height: 0;
   border-left: 35px solid transparent;
   border-right: 35px solid transparent;
   border-bottom: 400px solid rgb(255,255,255);
-  transform: rotate(90deg);
+  transform: rotate(87deg);
 }
 .e5{
   width: 150px;
@@ -557,10 +556,16 @@ transition:0.5s
   left:350px;
   transform: scale(0.3);
 }
-.sbox:hover .tri{
-  border-bottom: 315px solid rgb(249,180,226);
+.sbox:hover .tri1{
+  border-bottom: 400px solid rgb(249,180,226);
 }
-.sbox:hover .tri{
+.sbox:hover .tri2{
+  border-bottom: 450px solid rgb(249,180,226);
+}
+.sbox:hover .tri1{
+transition:0.5s  
+}
+.sbox:hover .tri2{
 transition:0.5s  
 }
 
@@ -568,38 +573,51 @@ transition:0.5s
   width: 150px;
   height: 300px;
   position: absolute;
-  top: 50px;
+  top: 0px;
   left: 1519px;
   width: 0;
   height: 0;
   border-left: 35px solid transparent;
   border-right: 35px solid transparent;
-  border-bottom: 315px solid rgb(255,255,255);
-  transform: rotate(130deg);
+  border-bottom: 400px solid rgb(255,255,255);
+  transform: rotate(120deg);
 }
 .s2{
   width: 150px;
   height: 300px;
   position: absolute;
-  top: 120px;
-  left: 1450px;
+  top: 115px;
+  left: 1448px;
   width: 0;
   height: 0;
-  border-left: 35px solid transparent;
-  border-right: 35px solid transparent;
-  border-bottom: 315px solid rgb(255,255,255);
+  border-left: 34px solid transparent;
+  border-right: 34px solid transparent;
+  border-bottom: 400px solid rgb(255,255,255);
   transform: rotate(-30deg);
 }
 .s3{
   width: 150px;
   height: 300px;
   position: absolute;
-  top: 300px;
-  left: 1450px;
+  top: 181px;
+  left: 1490px;
   width: 0;
   height: 0;
-  border-left: 35px solid transparent;
-  border-right: 35px solid transparent;
-  border-bottom: 315px solid rgb(255,255,255);
+  border-left: 45px solid transparent;
+  border-right: 45px solid transparent;
+  border-bottom: 450px solid rgb(255,255,255);
+  transform: rotate(-30deg);
+}
+.s4{
+  width: 150px;
+  height: 300px;
+  position: absolute;
+  top: 290px;
+  left: 1410px;
+  width: 0;
+  height: 0;
+  border-left: 55px solid transparent;
+  border-right: 55px solid transparent;
+  border-bottom: 450px solid rgb(255,255,255);
   transform: rotate(-60deg);
 }
