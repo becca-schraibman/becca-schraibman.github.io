@@ -1,0 +1,605 @@
+html{
+  background-color: rgb(0,0,0);
+}
+
+h1 {
+	position: absolute;
+	top: 250px;
+	left: 50px;
+	font-family: Helvetica;
+  color: rgb(255,255,255);
+}
+
+p{
+	position: absolute;
+	top: 300px;
+	left: 50px;
+	width: 380px;
+	font-family: Helvetica;
+  color: rgb(255,255,255);
+
+}
+
+.rbox {
+	position: absolute;
+	top:50px;
+	left:10px;
+	transform: scale(0.3);
+}
+.rbox:hover .tri{
+border-bottom: 315px solid rgb(116,72,194);  
+}
+.rbox:hover .tri{
+transition:0.5s  
+}
+.r1 {
+  width: 150px;
+  height: 400px;
+  position: absolute;
+  top: -65px;
+  left: 200px;
+  width: 0;
+  height: 0;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-bottom: 315px solid rgb(255,255,255);
+  transform: rotate(88deg);
+}
+.r2 {
+  width: 150px;
+  height: 300px;
+  position: absolute;
+  top: 30px;
+  left: 215px;
+  width: 0;
+  height: 0;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-bottom: 315px solid rgb(255,255,255);
+  transform: rotate(50deg);
+}	
+.r3 {
+  width: 150px;
+  height: 450px;
+  position: absolute;
+  top: 55px;
+  left: 50px;
+  width: 0;
+  height: 0;
+  border-left: 45px solid transparent;
+  border-right: 45px solid transparent;
+  border-bottom: 315px solid rgb(255,255,255);
+  transform: rotate(180deg);
+}
+.r4 {
+  width: 150px;
+  height: 300px;
+  position: absolute;
+  top: 145px;
+  left: 68px;
+  width: 0;
+  height: 0;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-bottom: 315px solid rgb(255,255,255);
+  transform: rotate(180deg);
+}
+.r5 {
+  width: 150px;
+  height: 300px;
+  position: absolute;
+  top: 250px;
+  left: 77px;
+  width: 0;
+  height: 0;
+  border-left: 39px solid transparent;
+  border-right: 39px solid transparent;
+  border-bottom: 315px solid rgb(255,255,255);
+  transform: rotate(180deg);
+}
+.r6 {
+  width: 150px;
+  height: 300px;
+  position: absolute;
+  top: 350px;
+  left: 89px;
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 315px solid rgb(255,255,255);
+  transform: rotate(180deg);
+}
+.r7 {
+  width: 150px;
+  height: 300px;
+  position: absolute;
+  top: 245px;
+  left: 170px;
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 315px solid rgb(255,255,255);
+  transform: rotate(-20deg);
+}
+.r8 {
+  width: 150px;
+  height: 300px;
+  position: absolute;
+  top: 345px;
+  left: 180px;
+  width: 0;
+  height: 0;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-bottom: 315px solid rgb(255,255,255);
+  transform: rotate(-20deg);
+}
+.r9 {
+  width: 150px;
+  height: 300px;
+  position: absolute;
+  top: 145px;
+  left: 67px;
+  width: 0;
+  height: 0;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-bottom: 315px solid rgb(255,255,255);
+  transform: rotate(180deg);
+}
+.r10 {
+  width: 150px;
+  height: 300px;
+  position: absolute;
+  top: 145px;
+  left: 67px;
+  width: 0;
+  height: 0;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-bottom: 315px solid rgb(255,255,255);
+  transform: rotate(180deg);
+}
+
+.abox {
+	position: absolute;
+	top:50px;
+	left:10px;
+	transform: scale(0.3);
+}
+.abox:hover .tri{
+border-bottom: 315px solid rgb(229,38,129);
+}
+.abox:hover .rect{
+background-color: rgb(229,38,129);
+}
+.abox:hover .tri{
+transition:0.5s  
+}
+.abox:hover .rect{
+transition:0.5s  
+}
+.a1 {
+  width: 150px;
+  height: 290px;
+  position: absolute;
+  top: 60px;
+  left: 490px;
+  width: 0;
+  height: 0;
+  border-left: 65px solid transparent;
+  border-right: 65px solid transparent;
+  border-bottom: 310px solid rgb(255,255,255);
+  transform: rotate(200deg);
+}
+.a2{
+  width: 150px;
+  height: 290px;
+  position: absolute;
+  top: 60px;
+  left: 590px;
+  width: 0;
+  height: 0;
+  border-left: 65px solid transparent;
+  border-right: 65px solid transparent;
+  border-bottom: 310px solid rgb(255,255,255);
+  transform: rotate(525deg);
+}
+.a3{
+  width: 150px;
+  height: 300px;
+  position: absolute;
+  top: 175px;
+  left: 478px;
+  width: 0;
+  height: 0;
+  border-left: 44.2px solid transparent;
+  border-right: 44.2px solid transparent;
+  border-bottom: 315px solid rgb(255,255,255);
+  transform: rotate(200deg);
+}
+.a4{
+  width: 150px;
+  height: 300px;
+  position: absolute;
+  top: 175px;
+  left: 628px;
+  width: 0;
+  height: 0;
+  border-left: 48.5px solid transparent;
+  border-right: 48.5px solid transparent;
+  border-bottom: 315px solid rgb(255,255,255);
+  transform: rotate(525deg);
+}
+.a5{
+  width: 150px;
+  height: 300px;
+  position: absolute;
+  top: 352px;
+  left: 440px;
+  width: 0;
+  height: 0;
+  border-left: 18px solid transparent;
+  border-right: 18px solid transparent;
+  border-bottom: 315px solid rgb(255,255,255);
+  transform: rotate(200deg);
+}
+.a6{
+  width: 150px;
+  height: 300px;
+  position: absolute;
+  top: 352px;
+  left: 705px;
+  width: 0;
+  height: 0;
+  border-left: 18px solid transparent;
+  border-right: 18px solid transparent;
+  border-bottom: 315px solid rgb(255,255,255);
+  transform: rotate(525deg);
+}
+.a7{
+  width: 220px;
+  height: 50px;
+  position: absolute;
+  top: 400px;
+  left: 490px;
+  background-color: rgb(255,255,255);
+}
+.a8{
+  width: 135px;
+  height: 50px;
+  position: absolute;
+  top: 45px;
+  left: 545px;
+  background-color: rgb(255,255,255);  
+}
+
+.nbox {
+	position: absolute;
+	top: 50px;
+	left: 180px;
+	transform: scale(0.3);
+}
+.nbox:hover .tri{
+border-bottom: 400px solid rgb(125,33,169);
+}
+.nbox:hover .rect{
+background-color: rgb(125,33,169);
+}
+.nbox:hover .tri{
+transition:0.5s  
+}
+.nbox:hover .rect{
+transition:0.5s  
+}
+.n1 {
+  width: 5px;
+  height: 500px;
+  position: absolute;
+  top: 50px;
+  left: 237.4px;
+  border-left: 85px solid transparent;
+  border-right: 94px solid transparent;
+  border-bottom: 400px solid rgb(255,255,255);
+  transform: rotate(180deg);
+}
+.n2 {
+  width: 5px;
+  height: 500px;
+  position: absolute;
+  top: 50px;
+  left: 510px;
+  border-left: 69.5px solid transparent;
+  border-right: 69.5px solid transparent;
+  border-bottom: 400px solid rgb(255,255,255);
+  transform: rotate(160deg);
+}
+.n3{
+  width: 147px;
+  height: 86.5px;
+  position: absolute;
+  top: 50px;
+  left: 350px;
+  background-color: rgb(255,255,255);
+}
+.n4 {
+  width: 5px;
+  height: 500px;
+  position: absolute;
+  top: 250px;
+  left: 280.5px;
+  border-left: 46.2px solid transparent;
+  border-right: 46.2px solid transparent;
+  border-bottom: 400px solid rgb(255,255,255);
+  transform: rotate(180.2deg);
+}
+.n5 {
+  width: 5px;
+  height: 500px;
+  position: absolute;
+  top: 250px;
+  left: 600px;
+  border-left: 25px solid transparent;
+  border-right: 41px solid transparent;
+  border-bottom: 400px solid rgb(255,255,255);
+  transform: rotate(162.5deg);
+}
+.n5 {
+  width: 5px;
+  height: 500px;
+  position: absolute;
+  top: 250px;
+  left: 600px;
+  border-left: 25px solid transparent;
+  border-right: 41px solid transparent;
+  border-bottom: 400px solid rgb(255,255,255);
+  transform: rotate(162.5deg);
+}
+.n6 {
+  width: 5px;
+  height: 500px;
+  position: absolute;
+  top: -250px;
+  left: 625px;
+  border-left: 25px solid transparent;
+  border-right: 41px solid transparent;
+  border-bottom: 400px solid rgb(255,255,255);
+  transform: rotate(360deg);
+}
+.n7 {
+  width: 5px;
+  height: 500px;
+  position: absolute;
+  top: -450px;
+  left: 637px;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 400px solid rgb(255,255,255);
+  transform: rotate(360deg);
+}
+
+.gbox{
+	position: absolute;
+	top: 50px;
+	left: 200px;
+	transform: scale(0.3);
+}
+.gbox:hover .tri1{
+border-bottom: 400px solid rgb(249,131,138);  
+}
+.gbox:hover .tri2{
+border-bottom: 315px solid rgb(249,131,138);  
+}
+.gbox:hover .tri1{
+transition:0.5s  
+}
+.gbox:hover .tri2{
+transition:0.5s  
+}
+.g1{
+  width: 5px;
+  height: 50px;
+  position: absolute;
+  top: 200px;
+  left: 750px;
+  border-left: 75px solid transparent;
+  border-right: 75px solid transparent;
+  border-bottom: 400px solid rgb(255,255,255);
+  transform: rotate(360deg);
+}
+.g2{
+  width: 5px;
+  height: 50px;
+  position: absolute;
+  top: 50px;
+  left: 778.5px;
+  border-left: 45px solid transparent;
+  border-right: 45px solid transparent;
+  border-bottom: 400px solid rgb(255,255,255);
+  transform: rotate(360deg);
+}
+.g3{
+  width: 5px;
+  height: 50px;
+  position: absolute;
+  top: -100px;
+  left: 1000px;
+  border-left: 45px solid transparent;
+  border-right: 45px solid transparent;
+  border-bottom: 400px solid rgb(255,255,255);
+  transform: rotate(90deg);
+}
+.g4{
+  width: 5px;
+  height: 50px;
+  position: absolute;
+  top: 242px;
+  left: 1000px;
+  border-left: 45px solid transparent;
+  border-right: 45px solid transparent;
+  border-bottom: 400px solid rgb(255,255,255);
+  transform: rotate(410deg);
+}
+.g5{
+  width: 5px;
+  height: 30px;
+  position: absolute;
+  top: 120px;
+  left: 1000px;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-bottom: 315px solid rgb(255,255,255);
+  transform: rotate(1000deg);  
+}
+
+.ebox{
+  position: absolute;
+  top:50px;
+  left:200px;
+  transform: scale(0.3);
+}
+.ebox:hover .tri1{
+  border-bottom: 450px solid rgb(68,212,170);
+}
+.ebox:hover .tri2{
+  border-bottom: 400px solid rgb(68,212,170);
+}
+.ebox:hover .tri1{
+transition:0.5s  
+}
+.ebox:hover .tri2{
+transition:0.5s  
+}
+.e1{
+  width: 150px;
+  height: 300px;
+  position: absolute;
+  top: 65px;
+  left: 1250px;
+  width: 0;
+  height: 0;
+  border-left: 80px solid transparent;
+  border-right: 80px solid transparent;
+  border-bottom: 450px solid rgb(255,255,255);
+  transform: rotate(180deg);
+}
+.e2{
+  width: 150px;
+  height: 300px;
+  position: absolute;
+  top: 145px;
+  left: 1290px;
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 450px solid rgb(255,255,255);
+  transform: rotate(180deg);
+}
+.e3{
+  width: 150px;
+  height: 300px;
+  position: absolute;
+  top: 250px;
+  left: 1315px;
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 450px solid rgb(255,255,255);
+  transform: rotate(180deg);
+}
+.e4{
+  width: 150px;
+  height: 300px;
+  position: absolute;
+  top: -100px;
+  left: 1488px;
+  width: 0;
+  height: 0;
+  border-left: 35px solid transparent;
+  border-right: 35px solid transparent;
+  border-bottom: 400px solid rgb(255,255,255);
+  transform: rotate(90deg);
+}
+.e5{
+  width: 150px;
+  height: 300px;
+  position: absolute;
+  top: 100px;
+  left: 1500px;
+  width: 0;
+  height: 0;
+  border-left: 35px solid transparent;
+  border-right: 35px solid transparent;
+  border-bottom: 400px solid rgb(255,255,255);
+  transform: rotate(90deg);
+}
+.e6{
+  width: 150px;
+  height: 300px;
+  position: absolute;
+  top: 350px;
+  left: 1510px;
+  width: 0;
+  height: 0;
+  border-left: 35px solid transparent;
+  border-right: 35px solid transparent;
+  border-bottom: 400px solid rgb(255,255,255);
+  transform: rotate(90deg);
+}
+
+.sbox{
+  position: absolute;
+  top:50px;
+  left:350px;
+  transform: scale(0.3);
+}
+.sbox:hover .tri{
+  border-bottom: 315px solid rgb(249,180,226);
+}
+.sbox:hover .tri{
+transition:0.5s  
+}
+
+.s1{
+  width: 150px;
+  height: 300px;
+  position: absolute;
+  top: 50px;
+  left: 1519px;
+  width: 0;
+  height: 0;
+  border-left: 35px solid transparent;
+  border-right: 35px solid transparent;
+  border-bottom: 315px solid rgb(255,255,255);
+  transform: rotate(130deg);
+}
+.s2{
+  width: 150px;
+  height: 300px;
+  position: absolute;
+  top: 120px;
+  left: 1450px;
+  width: 0;
+  height: 0;
+  border-left: 35px solid transparent;
+  border-right: 35px solid transparent;
+  border-bottom: 315px solid rgb(255,255,255);
+  transform: rotate(-30deg);
+}
+.s3{
+  width: 150px;
+  height: 300px;
+  position: absolute;
+  top: 300px;
+  left: 1450px;
+  width: 0;
+  height: 0;
+  border-left: 35px solid transparent;
+  border-right: 35px solid transparent;
+  border-bottom: 315px solid rgb(255,255,255);
+  transform: rotate(-60deg);
+}
