@@ -26,6 +26,7 @@ h1{
 	font-family: 'Anton', sans-serif;
 	font-size: 50px;
 	color: rgb(0,0,0);
+	line-height: 60px;
 }
 .performers{
 	position: absolute;
@@ -87,6 +88,7 @@ h1{
 		height: 667px;
 	}
   h1 {
+  	top: 10px;
   	font-size: 50px;
   	color: rgb(255,255,255);
   }
