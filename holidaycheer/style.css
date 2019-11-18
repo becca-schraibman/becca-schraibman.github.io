@@ -23,64 +23,85 @@ h1{
 	top: 0px;
 	width: 100%;
 	text-align: center;
-	font-family: 'Anton', sans-serif;
-	font-size: 50px;
-	color: rgb(0,0,0);
+	font-family: kari-display-pro, sans-serif;
+	font-style: normal;
+	font-weight: 400px;
+	font-size: 55px;
+	color: rgb(204,79,65);
 	line-height: 60px;
 }
 .performers{
 	position: absolute;
-	top: 100px;
+	top: 140px;
 	width: 100%;
-	text-align: center;
-	font-family: 'Anton', sans-serif;
-	font-size: 25px;
-	color: rgb(235, 214, 134);	
+	text-align: left;
+	font-family: haboro-contrast-normal, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	left: 50px;
+	font-size: 35px;
+	color: rgb(204,79,65);
+	line-height: 36px;	
 }
 .date{
 	position: absolute;
-	top: 240px;
+	top: 275px;
 	width: 100%;
-	text-align: center;
-	font-family: 'Anton', sans-serif;
-	font-size: 20px;
-	color: rgb(235, 214, 134);
+	text-align: left;
+	font-family: haboro-contrast-normal, sans-serif;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 30px;
+	left: 50px;
+	color: rgb(101,148,141);
 }
 .time{
 	position: absolute;
-	top: 270px;
+	top: 310px;
 	width: 100%;
-	text-align: center;
-	font-family: 'Anton', sans-serif;
-	font-size: 20px;
-	color: rgb(235, 214, 134);
+	text-align: left;
+	left: 50px;
+	font-family: haboro-contrast-normal, sans-serif;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 30px;
+	color: rgb(101,148,141);
 }
 .address{
 	position: absolute;
-	top: 300px;
+	top: 345px;
 	width: 100%;
-	text-align: center;
-	font-family: 'Anton', sans-serif;
-	font-size: 20px;
-	color: rgb(235, 214, 134);
+	text-align: left;
+	left: 50px;
+	font-family: haboro-contrast-normal, sans-serif;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 30px;
+	line-height: 32px;
+	color: rgb(101,148,141);
 }
 .tickets{
 	position: absolute;
-	top: 330px;
+	top: 380px;
 	width: 100%;
-	text-align: center;
-	font-family: 'Anton', sans-serif;
-	font-size: 20px;
-	color: rgb(235, 214, 134);
+	left: 50px;
+	text-align: left;
+	font-family: haboro-contrast-normal, sans-serif;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 30px;
+	color: rgb(101,148,141);
 }
 .description{
 	position: absolute;
-	top: 400px;
+	top: 455px;
 	width: 100%;
 	text-align: center;
-	font-family: 'Anton', sans-serif;
-	font-size: 20px;
-	color: rgb(0, 0, 0);	
+	font-family: haboro-contrast-normal, sans-serif;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 35px;
+	color: rgb(204, 79, 65);	
 }
 @media (max-width: 1024px) {
 	.wrapper{
@@ -88,34 +109,64 @@ h1{
 		height: 667px;
 	}
   h1 {
-  	top: 10px;
-  	font-size: 50px;
-  	color: rgb(255,255,255);
+  	top: 55px;
+  	font-size: 45px;
+  	color: rgb(101,148,141);
+  	line-height: 46px;
+  	text-align: center;
   }
   .performers{
-  	font-size: 20px;
+  	font-size: 25px;
+  	text-align: center;
   	color: rgb(0,0,0);
-  	top: 160px;
+  	top: 170px;
+  	line-height: 25px;
+  	left: 10px;
+  	color: rgb(204, 79, 65);
   }
   .date{
   	top: 265px;
   	font-size: 15px;
-  	color: rgb(0,0,0);
+  	color: rgb(220,136,131);
+  	left: 15px;
   }
   .time{
   	top: 295px;
   	font-size: 15px;
-  	color: rgb(0,0,0);
+  	color: rgb(220,136,131);
+  	left: 15px;
   }
   .address{
   	top: 325px;
   	font-size: 15px;
-  	color: rgb(0,0,0);
+  	color: rgb(220,136,131);
+  	left: 15px;
+  	line-height: 20px;
   }
   .tickets{
-  	top: 355px;
+  	top: 380px;
   	font-size: 15px;
-  	color: rgb(0,0,0);
+  	color: rgb(220,136,131);
+  	left:15px
+  }
+  .description{
+  	top: 415px;
+  	font-size: 15px;
+  	color: rgb(204, 79, 65);
+  	left: 15px;
+  	text-align: center; 	
+  }
+  .background{
+  	position: absolute;
+  	top: 0;
+  	left: 0;
+  	bottom: 0;
+  	right: 0;
+  	background-image: url(snowflake2.jpg);
+  	background-size: cover;
+  	background-repeat: no-repeat;
+  	width: 100vw;
+  	height: 100vh;
   }
 }
 
