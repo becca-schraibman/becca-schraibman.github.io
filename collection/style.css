@@ -4,44 +4,323 @@ html{
 h1{
 	font-family:avenir next condensed;
 	font-size:60px;
-	top: 50px;
+	top: 0;
 	color: rgb(255,255,255);
 }
-.typography.jpg{
+.typography{
 	position: absolute;
-	top: 50px;
-	left: 50px;
-	width: 50px;
-	height: 40px;
+	top: 110px;
 }
-.characters.jpg{
-	position: relative;
+.characters{
+	position: absolute;
+	top: 110px;
+	left: 600px;
 
 }
-.finearts.jpg{
-	position: relative;
+.finearts{
+	position: absolute;
+	top: 380px;
+}
+.designs{
+	position: absolute;
+	top: 380px;
+	left: 600px;
 }
 
 .wander{
 	position: absolute;
-	top: 150px;
+	top: 130px;
 	left: 350px;
+	width: 250px;
+	transition: opacity 0.3s;
 }
+.wander:hover{
+	opacity: 0.5;
+}
+.wanderdescription{
+	position: absolute;
+	top: 395px;
+	left: 350px;
+	line-height:16px;
+	font-size: 14px;
+	font-family: avenir next condensed;
+	width: 220px;
 
+}
 .xfiles{
 	position: absolute;
-	top: 150px;
+	top: 130px;
 	left: 620px;
+	width: 250px;
+	transition: opacity 0.3s;
+}
+.xfiles:hover{
+	opacity: 0.5;
+}
+.xfilesdescription{
+	position: absolute;
+	top: 395px;
+	left: 620px;
+	line-height:16px;
+	font-size: 14px;
+	font-family: avenir next condensed;
+	width: 220px;
 }
 
 .name{
 	position: absolute;
-	top: 450px;
+	top: 480px;
 	left: 350px;
+	width: 250px;
+	transition: opacity 0.3s;
+}
+.namedescription{
+	position: absolute;
+	top: 805px;
+	left: 350px;
+	line-height:16px;
+	font-size: 14px;
+	font-family: avenir next condensed;
+	width: 220px;
+}
+.name:hover{
+	opacity: 0.5;
 }
 
 .logic{
 	position: absolute;
-	top: 450px;
+	top:480px;
+	left:620px;
+	width: 250px;
+	transition: opacity 0.3s;
+}
+.logicdescription{
+	position: absolute;
+	top: 805px;
 	left: 620px;
+	line-height:16px;
+	font-size: 14px;
+	font-family: avenir next condensed;
+	width: 220px;
+}
+.logic:hover{
+	opacity: 0.5;
+}
+
+
+.stitch{
+	position: absolute;
+	top:580px;
+	left:350px;
+	width: 250px;
+	transition: opacity 0.3s;
+}
+.stitchdescription{
+	position: absolute;
+	top: 820px;
+	left: 350px;
+	line-height:16px;
+	font-size: 14px;
+	font-family: avenir next condensed;
+	width: 220px;
+}
+.stitch:hover{
+	opacity: 0.5;
+}
+.homer{
+	position: absolute;
+	top: 130px;
+	left: 350px;
+	width: 250px;
+	transition: opacity 0.3s;
+}
+.homerdescription{
+	position: absolute;
+	top: 500px;
+	left: 350px;
+	line-height:16px;
+	font-size: 14px;
+	font-family: avenir next condensed;
+	width: 220px;
+}
+.homer:hover{
+	opacity: 0.5;
+}
+.snoopy{
+	position: absolute;
+	top: 130px;
+	left: 635px;
+	width: 250px;
+	transition: opacity 0.3s;
+}
+.snoopydescription{
+	position: absolute;
+	top: 420px;
+	left: 635px;
+	line-height:16px;
+	font-size: 14px;
+	font-family: avenir next condensed;
+	width: 220px;
+}
+.snoopy:hover{
+	opacity: 0.5;
+}
+.nemo{
+	position: absolute;
+	top: 580px;
+	left: 635px;
+	width: 250px;
+	transition: opacity 0.3s;
+}
+.nemodescription{
+	position: absolute;
+	top: 820px;
+	left: 640px;
+	line-height:16px;
+	font-size: 14px;
+	font-family: avenir next condensed;
+	width: 220px;
+}
+.nemo:hover{
+	opacity: 0.5;
+}
+
+.vangogh{
+	position: absolute;
+	top:150px;
+	left:360px;
+	width: 250px;
+	transition: opacity 0.3s;
+}
+.vangoghdescription{
+	position: absolute;
+	top:350px;
+	left:360px;
+	line-height:14px;
+	font-size: 14px;
+	font-family: avenir next condensed;
+	width: 220px;
+}
+.vangogh:hover{
+	opacity: 0.5;
+}
+
+.artthemed{
+	position: absolute;
+	top:480px;
+	left:360px;
+	width: 250px;
+	transition: opacity 0.3s;
+}
+.artthemeddescription{
+	position: absolute;
+	top:720px;
+	left:360px;
+	line-height:14px;
+	font-size: 14px;
+	font-family: avenir next condensed;
+	width: 220px;
+}
+.artthemed:hover{
+	opacity: 0.5;
+}
+
+.wave{
+	position: absolute;
+	top:150px;
+	left:650px;
+	width: 250px;
+	transition: opacity 0.3s;
+}
+.wavedescription{
+	position: absolute;
+	top:420px;
+	left:650px;
+	line-height:14px;
+	font-size: 14px;
+	font-family: avenir next condensed;
+	width: 220px;
+}
+.wave:hover{
+	opacity: 0.5;
+}
+
+.drip{
+	position: absolute;
+	top: 130px;
+	left: 320px;
+	width: 250px;
+	transition: opacity 0.3s;
+}
+.dripdescription{
+	position: absolute;
+	top: 360px;
+	left: 320px;
+	line-height:14px;
+	font-size: 12px;
+	font-family: avenir next condensed;
+	width: 220px;
+}
+.drip:hover{
+	opacity: 0.5;
+}
+
+.sunflowers{
+	position: absolute;
+	top: 130px;
+	left: 600px;
+	width: 250px;
+	transition: opacity 0.3s;
+}
+.sunflowersdescription{
+	position: absolute;
+	top: 360px;
+	left: 600px;
+	line-height:14px;
+	font-size: 12px;
+	font-family: avenir next condensed;
+	width: 220px;
+}
+.sunflowers:hover{
+	opacity: 0.5;
+}
+
+.sunset{
+	position: absolute;
+	top: 425px;
+	left: 320px;
+	width: 250px;
+	transition: opacity 0.3s;
+}
+.sunsetdescription{
+	position: absolute;
+	top: 725px;
+	left: 320px;
+	line-height:14px;
+	font-size: 12px;
+	font-family: avenir next condensed;
+	width: 220px;
+}
+.sunset:hover{
+	opacity: 0.5;
+}
+
+.bikinibottom{
+	position: absolute;
+	top: 425px;
+	left: 600px;
+	width: 250px;
+	transition: opacity 0.3s;
+}
+.bikinibottomdescription{
+	position: absolute;
+	top: 620px;
+	left: 600px;
+	line-height:14px;
+	font-size: 12px;
+	font-family: avenir next condensed;
+	width: 220px;
+}
+.bikinibottom:hover{
+	opacity: 0.5;
 }
