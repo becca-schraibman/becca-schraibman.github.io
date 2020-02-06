@@ -1,7 +1,16 @@
+.h1{
+	font-family: proxima-nova, sans-serif;
+	font-weight: bold;
+	font-size: 50px;
+	font-style: italic;
+	color: gray;
+	line-height: 52px;
+	text-align: center;
+}
+
 .h3{
 	font-family: proxima-nova, sans-serif;
-	font-weight: 1000px;
-	font-style: bold;
+	font-weight: bold;
 	font-size: 20px;
 }
 
@@ -14,4 +23,22 @@
 	font-style: normal;
 	font-size: 20px;
 	line-height: 22px;
+}
+
+.h2{
+	font-family: proxima-nova, sans-serif;
+	font-size: 20px;
+	font-style: italic;
+	color: rgb(199,199,201);
+	line-height: 52px;
+}
+
+body{
+	max-width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img{
+	width: 100%;
 }
