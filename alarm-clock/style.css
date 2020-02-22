@@ -1,0 +1,84 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: rgb(36, 150, 59);
+}
+
+.hour{
+	position: absolute;
+	left: 50px;
+	width: 350px;
+	height: 350px;
+	border-radius: 50%;
+	background-image: url("basketball.png");
+	background-size: contain;
+	animation-name: animateA;
+	animation-duration: 30s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+.second{
+	position: absolute;
+	left: 600px;
+	top: 200px;
+	width: 90px;
+	height: 90px;
+	border-radius: 50%;
+	background-image: url("baseball.png");
+	background-size: contain;
+	animation-name: animateB;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+.minute{
+	position: absolute;
+	left: 1000px;
+	top: 200px;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	background-image: url("soccer.png");
+	background-size: contain;
+	animation-name: animateC;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+@keyframes animateA{
+	0% {
+		top: 0;
+	}
+	50%{
+		top: 400px;
+	}
+	100% {
+		top: 0;
+	}
+}
+
+@keyframes animateB{
+	0% {
+		top: 0;
+	}
+	50%{
+		top: 650px;
+	}
+	100% {
+		top: 0;
+	}
+}
+
+@keyframes animateC{
+	0% {
+		top: 0;
+	}
+	50%{
+		top: 650px;
+	}
+	100% {
+		top: 0;
+	}
+}
