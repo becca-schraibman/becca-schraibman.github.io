@@ -1,19 +1,21 @@
 body{
 	margin: 0;
 	padding: 0;
-	background-color: rgb(195, 255, 215);
+	background-color: rgb(36, 150, 59);
 }
 
 .hour{
-	position: relative;
+	position: absolute;
+	left: 50px;
 	width: 350px;
 	height: 350px;
 	border-radius: 50%;
-	background-color: rgb(0, 132, 146);
-	animation-name: animationA;
-	animation-duration: 60s;
+	background-image: url("basketball.png");
+	background-size: contain;
+	animation-name: animateA;
+	animation-duration: 30s;
 	animation-iteration-count: infinite;
-	animation-timing-function: ease-out;
+	animation-timing-function: linear;
 }
 .second{
 	position: absolute;
@@ -22,11 +24,12 @@ body{
 	width: 90px;
 	height: 90px;
 	border-radius: 50%;
-	background-color: rgb(161, 21, 255);
-	animation-name: animationB;
+	background-image: url("baseball.png");
+	background-size: contain;
+	animation-name: animateB;
 	animation-duration: 1s;
 	animation-iteration-count: infinite;
-	animation-timing-function: ease-out;
+	animation-timing-function: linear;
 }
 
 .minute{
@@ -36,42 +39,46 @@ body{
 	width: 150px;
 	height: 150px;
 	border-radius: 50%;
-	background-color: rgb(255, 127, 96);
-	animation-name: animationC;
+	background-image: url("soccer.png");
+	background-size: contain;
+	animation-name: animateC;
 	animation-duration: 10s;
 	animation-iteration-count: infinite;
-	animation-timing-function: ease-out;
+	animation-timing-function: linear;
 }
 
-@keyframes animationA{
+@keyframes animateA{
 	0% {
 		top: 0;
-		background-color: rgb(0, 132, 146);
 	}
-	100%{
+	50%{
 		top: 400px;
-		background-color: rgb(230, 140, 200);
+	}
+	100% {
+		top: 0;
 	}
 }
 
-@keyframes animationB{
+@keyframes animateB{
 	0% {
 		top: 0;
-		background-color: rgb(161, 21, 255);
 	}
-	100%{
+	50%{
 		top: 650px;
-		background-color: rgb(92, 181, 196);
+	}
+	100% {
+		top: 0;
 	}
 }
 
-@keyframes animationC{
+@keyframes animateC{
 	0% {
 		top: 0;
-		background-color: rgb(255, 127, 69);
 	}
-	100%{
+	50%{
 		top: 650px;
-		background-color: rgb(255, 170, 180);
+	}
+	100% {
+		top: 0;
 	}
 }
