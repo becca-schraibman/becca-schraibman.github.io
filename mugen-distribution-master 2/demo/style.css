@@ -86,7 +86,7 @@ body {
 }
 
 .hero.walking {
-  background-image: url("./img/walking-sprite.png");
+  background-image: url("walking-slug.png");
   animation-name: spriteSheet;
   animation-duration: 300ms;
   animation-timing-function: steps(4); /* number of frames in sprite (not counting the final blank space) */
@@ -97,14 +97,14 @@ body {
 }
 
 .hero.jumping {
-  background-image: url("./img/jumping-sprite.png");
+  background-image: url("jumping-sprite.png");
   animation-name: spriteSheet;
   animation-duration: 1000ms;
   animation-timing-function: steps(4); /* number of frames in sprite (not counting the final blank space) */
 }
 
 .hero.doing-action {
-  background-image: url("./img/action-sprite.png");
+  background-image: url("action-sprite.png");
   animation-name: spriteSheet;
   animation-duration: 600ms;  /* set to same number in initialize() as well or it will look weird */
   animation-timing-function: steps(4); /* number of frames in sprite (not counting the final blank space) */
@@ -114,12 +114,12 @@ body {
   position: absolute;
   width: 170px;
   height: 170px;
-  bottom: 490px;
-  background-image: url("./img/npc-sprite.png");
+  bottom: 80px;
+  background-image: url("rat-sprite.png");
   background-size: cover;
   animation-name: spriteSheet;
-  animation-duration: 500ms;
-  animation-timing-function: steps(2); /* number of frames in sprite (not counting the final blank space) */
+  animation-duration: 800ms;
+  animation-timing-function: steps(3); /* number of frames in sprite (not counting the final blank space) */
   animation-iteration-count: infinite;  
   pointer-events: none;
 }
