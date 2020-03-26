@@ -69,7 +69,7 @@ body {
 
 .hero {
   position: absolute;
-  bottom: 80px;
+  bottom: 100px;
   left: 400px;
   width: 300px;
   height: 300px;
@@ -97,14 +97,14 @@ body {
 }
 
 .hero.jumping {
-  background-image: url("jumping-sprite.png");
+  background-image: url("jumping-slug.png");
   animation-name: spriteSheet;
   animation-duration: 1000ms;
   animation-timing-function: steps(4); /* number of frames in sprite (not counting the final blank space) */
 }
 
 .hero.doing-action {
-  background-image: url("action-sprite.png");
+  background-image: url("slime-slug.png");
   animation-name: spriteSheet;
   animation-duration: 600ms;  /* set to same number in initialize() as well or it will look weird */
   animation-timing-function: steps(4); /* number of frames in sprite (not counting the final blank space) */
