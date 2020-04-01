@@ -126,7 +126,7 @@ body {
 
 .npc.was-interacted {
   opacity: 0;
-  transition: opacity 200ms linear;
+  transition: opacity 400ms linear;
   background-image: url("slime-rat.png");
 }
 
